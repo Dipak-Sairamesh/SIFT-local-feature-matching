@@ -1,8 +1,6 @@
-# SIFT Feature Matching
+Implementation of the three major steps of a local feature matching algorithm (detecting interest points, creating local feature descriptors, and matching feature vectors) using two different versions of the local feature descriptor.
 
-# Setup
-1. Install [Miniconda](https://conda.io/miniconda.html). It doesn't matter whether you use Python 2 or 3 because we will create our own environment that uses python3 anyways.
-2. Create a conda environment using the appropriate command: `conda env create -f pa2_env.yml`
-3. This will create an environment named 'cs5330_pa2'. Activate it using the Windows command, `activate cs5330_pa2` or the MacOS / Linux command, `conda activate cs5330_pa2` or `source activate cs5330_pa2`
-4. Run the notebook using `jupyter notebook ./pa2_code/pa2.ipynb` and finish tasks described over there.
-
+Interest point detection 
+Local feature description with a simple normalized patch feature 
+Feature matching 
+Local feature description with the SIFT feature 
